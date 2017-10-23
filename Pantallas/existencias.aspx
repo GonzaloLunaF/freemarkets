@@ -9,7 +9,7 @@
 
         <tr>
             <td>
-                Producto:
+                Producto (Prueba para GitHub):
             </td>
             <td>
                 <asp:DropDownList ID="ddlProducto" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlProducto_SelectedIndexChanged" ></asp:DropDownList>
@@ -21,7 +21,7 @@
     <asp:GridView ID="grdProductos" runat="server" AutoGenerateColumns="false" OnRowDataBound="grdProductos_RowDataBound" >
 
         <Columns>
-            <asp:BoundField HeaderText="Codigo del Producto" DataField="codigoProducto" />
+            <asp:BoundField HeaderText="Codigo del Producto (Muajaja)" DataField="codigoProducto" />
             <asp:HyperLinkField runat="server" DataNavigateUrlFields="codigoProducto" DataNavigateUrlFormatString="/About.aspx?codigo={0}" DataTextField="codigoProducto" HeaderText="Codigo del Producto1" ItemStyle-Width="100px" ItemStyle-Wrap="true"/>
             <asp:BoundField HeaderText="Nombre del Producto" DataField="nombreProducto" />
             <asp:BoundField HeaderText="Existencia" DataField="cantidadExistencia" />
