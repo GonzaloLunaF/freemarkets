@@ -8,7 +8,7 @@
     <table>
         <tr>
             <td>
-                Cliente:
+                Cliente (Sigo probando):
             </td>
             <td>
                 <asp:DropDownList ID="ddlCliente" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlCliente_SelectedIndexChanged"></asp:DropDownList>
@@ -25,7 +25,7 @@
                 </ItemTemplate>
             </asp:TemplateField>
 
-            <asp:BoundField HeaderText="ID" DataField="idVenta" />
+            <asp:BoundField HeaderText="ID JEJE" DataField="idVenta" />
             <asp:BoundField HeaderText="Fecha de la Venta" DataField="fechaVenta" />
             <asp:BoundField HeaderText="Total" DataField="totalVenta" />
         </Columns>
